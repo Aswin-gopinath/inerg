@@ -1,0 +1,39 @@
+[
+    {
+      "state": "Maharashtra",
+      "total": 100000,
+      "active": 12000,
+      "recovered": 85000,
+      "deaths": 3000,
+      "lat": 19.7515,
+      "long": 75.7139
+    },
+    {
+      "state": "Kerala",
+      "total": 70000,
+      "active": 10000,
+      "recovered": 59000,
+      "deaths": 1000,
+      "lat": 10.8505,
+      "long": 76.2711
+    },
+    {
+      "state": "Goa",
+      "total": 100000,
+      "active": 7500,
+      "recovered": 85000,
+      "deaths": 7500,
+      "lat": 15.2993,
+      "long": 75.1240
+    },
+    {
+      "state": "Tamilnadu",
+      "total": 50000,
+      "active": 30000,
+      "recovered": 10000,
+      "deaths": 10000,
+      "lat": 13.0843,
+      "long": 80.2705
+    }
+  ]
+  
