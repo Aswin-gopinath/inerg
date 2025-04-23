@@ -6,7 +6,6 @@ const Plot = dynamic(() => import('react-plotly.js'), { ssr: false });
 
 const PieChart = () => {
   const { data, selectedState } = useSelector(state => state.covid);
-
   const filtered = selectedState
     ? data.find(d => d.state === selectedState)
     : data.reduce(

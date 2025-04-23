@@ -13,7 +13,7 @@ const Popup = dynamic(() => import('react-leaflet').then(mod => mod.Popup), { ss
 const MapView = () => {
   const { data, selectedState } = useSelector(state => state.covid);
   const states = selectedState ? data.filter(d => d.state === selectedState) : data;
-
+ 
   const [L, setL] = useState(null);
 
   useEffect(() => {

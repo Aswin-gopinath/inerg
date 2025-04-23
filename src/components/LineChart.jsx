@@ -6,7 +6,6 @@ const Plot = dynamic(() => import('react-plotly.js'), { ssr: false });
 
 const LineChart = () => {
   const { data, selectedState } = useSelector((state) => state.covid);
-
   const chartData = selectedState
     ? data.filter((item) => item.state === selectedState)
     : data;
